@@ -1,0 +1,36 @@
+p {
+  font-size: 2rem;
+  font-weight: 1.6rem;
+}
+
+/* padding */
+
+.padding {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(72, 89, 89);
+  padding: 5rem;
+  font-size: 1.5rem;
+}
+
+/* marging */
+
+.margin {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(72, 89, 89);
+  padding: 5rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+/* border */
+
+.border {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(72, 89, 89);
+  padding: 5rem;
+  font-size: 1.5rem;
+  border: 10px solid rgb(54, 44, 44);
+}

@@ -1,0 +1,25 @@
+.loader {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  animation: pulse 1s infinite;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes pulse   /* pulse ==>  animation name*/ {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+  }
+}

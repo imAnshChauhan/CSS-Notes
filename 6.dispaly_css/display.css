@@ -1,0 +1,29 @@
+/* display:block */
+
+#block {
+  display: block; /* by default value*/
+  height: 50px;
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* display:inline */
+
+#inline {
+  display: inline;
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* display:inline-block */
+
+#inline-block {
+  display: inline-block;
+  height: 50px;
+  width: 800px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 10px;
+}

@@ -1,0 +1,29 @@
+.box {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: aqua;
+  border-top: 5px solid black;
+  position: relative;
+
+  /* animation-name: circleMovement;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  animation: circleMovement 3s ease-in 1.5s infinite alternate; /*shorthand for*/
+  /* animation-name  animation-duration animation-timing-function animation-dealay animation-iteration-count animation-direction*/
+}
+
+@keyframes circleMovement {
+  from {
+    left: 10px;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 1200px;
+    transform: rotate(360deg);
+    /* transform: scale(0.07); */
+  }
+}

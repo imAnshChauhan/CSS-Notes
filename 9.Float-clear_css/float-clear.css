@@ -1,0 +1,20 @@
+img {
+  height: 300px;
+}
+
+#float-left {
+  float: left;
+  margin: 10px;
+}
+
+#float-right {
+  float: right;
+  margin: 10px;
+}
+
+#clear-right {
+  float: left;
+}
+#clear-left {
+  clear: left;
+}

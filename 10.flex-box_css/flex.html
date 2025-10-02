@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+  <body>
+    <h1>
+      Contents : 1.Display:flex, 2.flex-direction, 3.flex-wrap,
+      4.justify-content, 5.align-items, 6.align-content, 7.flex-grow,
+      8.flex-shrink, 9.flex-basis, 10.align-self,
+    </h1>
+    <!-- flexbox-->
+
+    <!-- Q. how to create a flex box :-  for making flex box , make parent container flex-container by giving attribute,, "display:flex;" -->
+
+    <!-- make parent container display flex -->
+
+    <!-- flex-direction property -->
+
+    <!-- 1. flex-direction:row -->
+
+    <h1 style="text-align: center; text-decoration: underline">
+      1.flex-direction property
+    </h1>
+    <h1>flex direction-row</h1>
+    <div class="direction-row">
+      <!-- these are called flex items -->
+
+      <div class="row">box1</div>
+      <div class="row">box2</div>
+      <div class="row">box3</div>
+      <div class="row">box4</div>
+      <div class="row">box5</div>
+      <div class="row">box6</div>
+    </div>
+
+    <!-- 2. flex-direction:column -->
+
+    <h1>flex-direction-column</h1>
+
+    <div class="direction-column">
+      <div class="column">box1</div>
+      <div class="column">box2</div>
+      <div class="column">box3</div>
+      <div class="column">box4</div>
+      <div class="column">box5</div>
+      <div class="column">box6</div>
+    </div>
+
+    <!-- 3. flex-direction-row reverse -->
+
+    <h1>flex-direction-row-reverse</h1>
+
+    <div class="direction-row-reverse">
+      <box class="row-reverse">box1</box>
+      <box class="row-reverse">box2</box>
+      <box class="row-reverse">box3</box>
+      <box class="row-reverse">box4</box>
+    </div>
+
+    <!-- 4. flex-direction-column reverse -->
+
+    <h1>flex-direction-column-reverse</h1>
+
+    <div class="direction-column-reverse">
+      <box class="column-reverse">box1</box>
+      <box class="column-reverse">box2</box>
+      <box class="column-reverse">box3</box>
+      <box class="column-reverse">box4</box>
+    </div>
+
+    <!-- flex-wrap: property -->
+
+    <!-- this propety wraps the itmes when it needed -->
+    <h1>2.flex:wrap</h1>
+    <div class="flex-wrap">
+      <box class="wrap">box1</box>
+      <box class="wrap">box2</box>
+      <box class="wrap">box3</box>
+      <box class="wrap">box4</box>
+      <box class="wrap">box5</box>
+      <box class="wrap">box6</box>
+    </div>
+
+    <!-- flex-wrap:wrap-reverse -->
+
+    <h1>wrap:reverse</h1>
+    <div class="flex-wrap-reverse">
+      <div class="reverse">box1</div>
+      <div class="reverse">box2</div>
+      <div class="reverse">box3</div>
+      <div class="reverse">box4</div>
+      <div class="reverse">box5</div>
+      <div class="reverse">box6</div>
+    </div>
+
+    <!-- flex-flow: short hand of flex-wrap and flex-direction -->
+
+    <h1>flex flow : shorthand for flex-direction and flex-wrap</h1>
+    <div class="flex-flow">
+      <div class="flow">box1</div>
+      <div class="flow">box2</div>
+      <div class="flow">box3</div>
+      <div class="flow">box4</div>
+      <div class="flow">box5</div>
+      <div class="flow">box6</div>
+    </div>
+
+    <!-- 3. justify-content property -->
+
+    <!-- 1. justify-content:center      aligns items horizontally(main-axis) -->
+    <h1>3.justify-content property</h1>
+    <h1>justify-content:center</h1>
+    <div class="justify-center">
+      <box class="center">box1</box>
+      <box class="center">box2</box>
+      <box class="center">box3</box>
+    </div>
+
+    <!-- 2. justify-content:start/flex-start      aligns items horizontally(main-axis) -->
+
+    <h1>justify-content:start/flex-start</h1>
+    <div class="justify-start_flex-start">
+      <box class="start">box1</box>
+      <box class="start">box2</box>
+      <box class="start">box3</box>
+    </div>
+
+    <!-- 3. justify-content:end/flex-end      aligns items horizontally(main-axis) -->
+
+    <h1>justify-content:end/flex-end</h1>
+    <div class="justify-end_flex-end">
+      <box class="end">box1</box>
+      <box class="end">box2</box>
+      <box class="end">box3</box>
+    </div>
+
+    <!-- 4. justify-content:space-around     aligns items horizontally(main-axis) -->
+
+    <h1>justify-content:space-around</h1>
+    <div class="justify-space-around">
+      <box class="space-around">box1</box>
+      <box class="space-around">box2</box>
+      <box class="space-around">box3</box>
+    </div>
+    <!-- 5. justify-content:space-between      aligns items horizontally(main-axis) -->
+
+    <h1>justify-content:space-between</h1>
+    <div class="justify-space-between">
+      <box class="space-between">box1</box>
+      <box class="space-between">box2</box>
+      <box class="space-between">box3</box>
+    </div>
+    <!-- 6. justify-content:space-evenly     aligns items horizontally(main-axis) -->
+
+    <h1>justify-content:space-evenly</h1>
+    <div class="justify-space-evenly">
+      <box class="space-evenly">box1</box>
+      <box class="space-evenly">box2</box>
+      <box class="space-evenly">box3</box>
+    </div>
+    <br /><br />
+
+    <!-- 4.align-items property -->
+
+    <!-- 1.align-items:center      aligns items vertically(cross-axis)-->
+
+    <h1>4.align-items property</h1>
+    <h1>align-items:center</h1>
+    <div class="align-items_center">
+      <box class="align-center">box1</box>
+      <box class="align-center">box2</box>
+      <box class="align-center">box3</box>
+    </div>
+    <!-- 2. align-items:start/flex-start      aligns items vertically(cross-axis) -->
+
+    <h1>align-items:start/flex-start</h1>
+    <div class="align-itmes_start_flex-start">
+      <box class="align-start_flex-start">box1</box>
+      <box class="align-start_flex-start">box2</box>
+      <box class="align-start_flex-start">box3</box>
+    </div>
+    <!-- 3.align-items:end/flex-end   aligns items vertically(cross-axis) -->
+
+    <h1>align-items:end/flex-end</h1>
+    <div class="align-itmes_end_flex-end">
+      <box class="align-end_flex-end">box1</box>
+      <box class="align-end_flex-end">box2</box>
+      <box class="align-end_flex-end">box3</box>
+    </div>
+
+    <!-- 5.align-content property -->
+
+    <!-- align contetn center -->
+    <h1>5.align-conent property</h1>
+    <h1>align-content:center</h1>
+    <div class="align-content_center">
+      <box class="content-center">box1</box>
+      <box class="content-center">box2</box>
+      <box class="content-center">box3</box>
+      <box class="content-center">box4</box>
+      <box class="content-center">box5</box>
+      <box class="content-center">box6</box>
+    </div>
+
+    <!-- align-content: start -->
+
+    <h1>align-content:start</h1>
+    <div class="align-content_start">
+      <box class="content-start">box1</box>
+      <box class="content-start">box2</box>
+      <box class="content-start">box3</box>
+      <box class="content-start">box4</box>
+      <box class="content-start">box5</box>
+      <box class="content-start">box6</box>
+    </div>
+
+    <!-- align-content: end -->
+
+    <h1>align-content:end</h1>
+    <div class="align-content_end">
+      <box class="content-end">box1</box>
+      <box class="content-end">box2</box>
+      <box class="content-end">box3</box>
+      <box class="content-end">box4</box>
+      <box class="content-end">box5</box>
+      <box class="content-end">box6</box>
+    </div>
+
+    <!-- align-content: space-between -->
+
+    <h1>align-content:space-between</h1>
+    <div class="align-content_space-between">
+      <box class="content-between">box1</box>
+      <box class="content-between">box2</box>
+      <box class="content-between">box3</box>
+      <box class="content-between">box4</box>
+      <box class="content-between">box5</box>
+      <box class="content-between">box6</box>
+    </div>
+
+    <!-- align-content: space-around -->
+
+    <h1>align-content:space-around</h1>
+    <div class="align-content_space-around">
+      <box class="content-around">box1</box>
+      <box class="content-around">box2</box>
+      <box class="content-around">box3</box>
+      <box class="content-around">box4</box>
+      <box class="content-around">box5</box>
+      <box class="content-around">box6</box>
+    </div>
+
+    <!-- align-content: space-evenly -->
+
+    <h1>align-content:space-evenly</h1>
+    <div class="align-content_space-evenly">
+      <box class="content-evenly">box1</box>
+      <box class="content-evenly">box2</box>
+      <box class="content-evenly">box3</box>
+      <box class="content-evenly">box4</box>
+      <box class="content-evenly">box5</box>
+      <box class="content-evenly">box6</box>
+    </div>
+
+    <!-- order-property -->
+
+    <h1>6. order-property</h1>
+
+    <div class="order">
+      <div id="ordr2" class="ordr">it has order and flex grow poroperty</div>
+      <div id="shrink" class="ordr">box2</div>
+      <div id="grow" class="ordr">box3</div>
+    </div>
+
+    <!-- align-self property -->
+
+    <h1>7.align-self</h1>
+
+    <div class="align-slef">
+      <div id="self-align" class="self">box1</div>
+      <div id="self-align2" class="self">box2</div>
+      <div class="self">box3</div>
+    </div>
+  </body>
+</html>

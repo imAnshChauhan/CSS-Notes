@@ -1,0 +1,24 @@
+div {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+#color1 {
+  color: rgb(200, 10, 10); /*coloring through rgb*/
+}
+
+#color2 {
+  color: rgba(200, 10, 10, 0.5); /*coloring through rgba*/
+}
+
+#color3 {
+  color: #22cb47; /*coloring through hex*/
+}
+
+#color4 {
+  color: darkblue; /* coloring through named color*/
+}
+
+#color5 {
+  color: hsl(314 100% 60%);
+}

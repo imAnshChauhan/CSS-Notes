@@ -1,0 +1,18 @@
+.box {
+  height: 200px;
+  width: 400px;
+  background-color: #ccc;
+
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0.3s;
+  transition-timing-function: linear; */
+
+  transition: all 2s linear 0.5s; /*shorthand*/
+}
+
+.box:hover {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

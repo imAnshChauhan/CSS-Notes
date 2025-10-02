@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo class and elements</title>
+    <link rel="stylesheet" href="psuedo.css" />
+    <link rel="shortcut icon" href="././../imgansh.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- :active -->
+
+    <label for="active"
+      >when it is clicked it changes the color and become larger</label
+    >
+    <br />
+    <a href="https://www.google.com/" target="_blank" id="active">Googel</a>
+    <br />
+    <br />
+
+    <!-- hover -->
+
+    <label for="hover">when it is hovered it changes the bg-color</label>
+    <br />
+    <a href="https://www.facebook.com/" target="_blank" id="hover">Facebook</a>
+
+    <br />
+    <br />
+
+    <!-- :focus -->
+
+    <label for="focus">it changes the original state when it get focus</label>
+    <br />
+    <input type="text" id="focus" placeholder="write some text" />
+    <br /><br />
+    <!-- :visited -->
+
+    <label for="visited">it changes it color or state after visited</label>
+    <br />
+    <a href="https://pwskills.com/" target="_blank" id="visited">Pw skills</a>
+    <br /><br />
+
+    <!-- :link   unvisited links -->
+
+    <label for="link"> it shows unvisited links</label>
+    <br />
+    <a href="https://us05web.zoom.us/" target="_blank" id="link">Zoom.com</a>
+
+    <!-- :firts-child  :last-child  :nth-child -->
+    <div class="first-container">
+      <p>
+        this is :first-child selection, adipisicing elit. Modi nam autem il.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quod
+        eveniet neque, debitis perspiciatis dolorum blanditiis exercitationem
+        volup
+      </p>
+      <p>this is last child selection adipisicing elit. Labore deserunt</p>
+      <p>this is a paragraph</p>
+      <p>this is a paragraph</p>
+      <p>this :nth(6th) paragraph a paragraph</p>
+      <p>last child :- this is a paragraph</p>
+    </div>
+    <br /><br />
+
+    <!-- nth-last-of-type  :first-of-type  :last-of-type -->
+
+    <div class="second-container" style="line-height: 20px">
+      <p>
+        this is :first-of-type selection, adipisicing elit. Modi nam autem il.
+      </p>
+      <span>this is spppan tag</span>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quod
+        eveniet neque, debitis perspiciatis dolorum blanditiis exercitationem
+        volup
+      </p>
+      <p>this is last child selection adipisicing elit. Labore deserunt</p>
+      <p>this is a paragraph</p>
+      <span>this is span tag</span>
+      <p>this is a paragraph a paragraph</p>
+      <p>this is nth(2) last of type selection</p>
+      <p>this is last-of-type :- this is a paragraph</p>
+    </div>
+
+    <!-- :checked  -->
+
+    <!-- works on checkbox -->
+    <h4>checked property</h4>
+    <h4>select your gender</h4>
+    <input type="checkbox" id="checkbox" />
+    <lable>male</lable>
+
+    <input type="checkbox" id="checkbox" />
+    <lable>female</lable>
+    <br /><br />
+
+    <!-- :disabled -->
+
+    <!-- works in inline styling -->
+    <button type="submit" disabled>disabled button</button>
+    <br /><br />
+
+    <!-- ::after -->
+    <p id="after">it contains somthing after which is not selectable</p>
+    <br />
+
+    <!-- ::before -->
+    <p id="before">it contains somthing before which is not selectable</p>
+    <br />
+
+    <!-- ::first-letter -->
+
+    <!-- selects first letter of each elements of same group and style them -->
+
+    <p>makes first letter red and bigger</p>
+    <p>makes first letter red and bigger</p>
+    <p>makes first letter red and bigger</p>
+    <br /><br />
+
+    <!-- ::first-line -->
+
+    <!-- selects first line of each elements of same group and style them -->
+    <div class="first-line">
+      <p>
+        makes first line stylish Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Iste aspernatur amet aperiam error libero ducimus aut
+        voluptatum, hic tempore ut suscipit, delectus minima. Nostrum, dolor
+        error nam atque dolores tenetur.
+      </p>
+      <p>
+        this is a paragraph line Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Dicta dolor ducimus accusamus iste provident tempora
+        soluta impedit nobis, quibusdam fuga numquam ipsam, nostrum quod autem
+        earum officia possimus necessitatibus, veritatis blanditiis architecto
+        delectus repellendus vero vitae mollitia? Aliquid vitae saepe quae unde
+        nihil, sequi culpa voluptas aperiam quisquam expedita quo.
+      </p>
+      <p>
+        this is third linne Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Facere omnis quibusdam commodi, vel mollitia perspiciatis beatae
+        nobis hic libero, tempore quasi enim a quo deserunt aliquam! Nemo
+        exercitationem ad aliquam reprehenderit, debitis libero nisi
+        voluptatibus amet dolores molestias perferendis vitae, nesciunt
+        accusantium recusandae error! Magnam magni dignissimos, aliquam,
+        distinctio vero in id consectetur sit nobis ipsam non inventore
+        perferendis sed.
+      </p>
+    </div>
+
+    <!-- ::selection -->
+
+    <h4>when you select this it will change its background</h4>
+    <br />
+
+    <!-- ::placeholder -->
+
+    <input type="text" id="placeholder" placeholder="feed me with data :(" />
+  </body>
+</html>

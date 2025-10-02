@@ -1,0 +1,46 @@
+table {
+  font-size: 2rem;
+}
+
+/* border */
+table {
+  border: 5px solid black;
+}
+th,
+tr,
+td {
+  border: 2px solid black; /*create indivisual border around it*/
+}
+
+/* border collapse */
+
+table {
+  border-collapse: collapse; /*collapse the all border*/
+}
+
+/* border spacing */
+
+/* tr,
+th {
+  border-spacing: 100px;
+} */
+
+/* table spacing */
+
+td {
+  padding: 50px; /*creates space around table and content*/
+}
+
+/* table layout */
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+/* text align */
+
+table {
+  text-align: center;
+  vertical-align: center;
+}

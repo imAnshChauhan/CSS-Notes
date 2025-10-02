@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button animation</title>
+    <style>
+      .btn-gradient {
+        padding: 10px 10px;
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        font-size: 1.2rem;
+        border: none;
+        background: url("../imgansh.jpeg");
+        background-size: cover;
+        color: transparent;
+        background-clip: text;
+      }
+
+      .loading-btn {
+        padding: 15px 25px;
+        border: none;
+        background-color: rgb(28, 54, 45);
+        color: white;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px;
+      }
+
+      .loading-btn::after {
+        content: " ";
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border-top: 2px solid white;
+        background-color: transparent;
+        animation: spin 0.6s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn-gradient">Sign Up</button>
+
+    <button class="loading-btn">Loading</button>
+  </body>
+</html>

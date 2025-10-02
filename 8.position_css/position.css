@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 160px;
+  width: 160px;
+  border: 2px solid black;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+/* static */
+
+.static {
+  /*by default value,,   can't assign  top, left, right, and bottom  positioning attribute*/
+  position: static;
+  top: 100px;
+  right: 100px;
+  background-color: antiquewhite;
+}
+
+/* relative */
+
+/* it moves from its original place and create gaps  doesn't filled by others */
+
+.relative {
+  /*   can assign  top, left, right, and bottom  positioning attribute*/
+  position: relative;
+  top: 100px;
+  right: 100px;
+  background-color: antiquewhite;
+}
+
+/* absolute */
+
+/* it moves from its original place and don't gaps ,gaps filled by others */
+
+.absolute {
+  /*   can assign  top, left, right, and bottom  positioning attribute*/
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  background-color: antiquewhite;
+}
+
+/* fixed */
+
+/* always stay at the same place even page is scrolled */
+
+.fixed {
+  /*   can assign  top, left, right, and bottom  positioning attribute*/
+  position: fixed;
+  top: 0;
+  left: 900px;
+  background-color: antiquewhite;
+}
+
+/* sticky */
+
+/* position relative until a certain scroll position reached and became fixed */
+
+.sticky {
+  /*   can assign  top, left, right, and bottom  positioning attribute*/
+  position: sticky;
+  top: 0;
+  left: 1200px;
+  background-color: antiquewhite;
+}

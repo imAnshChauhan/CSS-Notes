@@ -1,0 +1,140 @@
+body {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* :active */
+
+#active:active {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: darkblue;
+}
+
+/* :hover */
+
+#hover:hover {
+  background-color: lightgray;
+  text-decoration: underline;
+}
+
+/* :focus */
+
+input:focus {
+  border: 4px solid;
+  border-radius: 5px;
+  background-color: rgb(190, 214, 236);
+}
+
+/* :visited */
+
+#visited:visited {
+  color: green;
+}
+
+/* :link */
+
+#link:link {
+  color: darkblue;
+}
+
+/* :firts-child */
+
+p {
+  font-size: 1.2rem;
+}
+.first-container p:first-child {
+  font-size: 2rem;
+  color: rgb(138, 43, 226);
+}
+
+/* last-child */
+
+.first-container p:last-child {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+/* :nth-child */
+.first-container p:nth-child(6) {
+  color: chocolate;
+  font-size: 3rem;
+}
+
+/* :first-of-type */
+
+.second-container p:first-of-type {
+  color: rgb(113, 182, 11);
+  font-size: 2rem;
+}
+
+/* :last-of-type */
+
+.second-container p:last-of-type {
+  color: rgb(17, 97, 69);
+  font-size: 2rem;
+}
+
+/* :nth-last-of-type */
+
+.second-container p:nth-last-of-type(2) {
+  color: rgb(117, 13, 110);
+  font-size: 2.5rem;
+}
+
+/* :checked */
+
+#checkbox:checked {
+  outline: 3px solid red;
+  background-color: black;
+}
+
+/* ::after */
+
+#after::after {
+  content: "\2713";
+  color: green;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+/* ::before */
+
+#before::before {
+  content: "\2713";
+  color: green;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+/* ::first-letter */
+
+p::first-letter {
+  font-size: 1.8rem;
+  color: red;
+  font-weight: 1.3rem;
+}
+
+/* ::first-line */
+
+.first-line p::first-line {
+  font-size: 1.8rem;
+  color: red;
+  font-weight: 1.3rem;
+}
+
+/* ::selection */
+
+h4::selection {
+  background-color: rgb(159, 249, 249);
+  font-size: 1.6rem;
+}
+
+/* ::placeholder */
+
+#placeholder::placeholder {
+  color: rgba(83, 46, 46, 0.502);
+}
